@@ -94,7 +94,7 @@ nav a:hover {
 
 .specialty-content {
 	max-width: 1000px;
-	text-align: left;
+	text-align: justify;
 }
 
 .specialty-content p,
@@ -112,6 +112,7 @@ nav a:hover {
 
 .specialty-content h2 {
 	margin-top: 32px;
+	text-align: left;
 	color: #670733;
 }
 
