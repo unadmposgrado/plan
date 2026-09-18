@@ -53,9 +53,17 @@ nav a:hover {
 	text-align: center;
 }
 
+.content-view {
+	width: 100%;
+}
+
+#inicio {
+	text-align: center;
+}
+
 .welcome-message {
 	max-width: 800px;
-	margin: 0 0 35px;
+	margin: 0 auto 35px;
 	font-size: 24px;
 	line-height: 1.5;
 }
@@ -82,6 +90,53 @@ nav a:hover {
 
 .study-button:hover {
 	background-color: #670733;
+}
+
+.specialty-content {
+	max-width: 1000px;
+	text-align: left;
+}
+
+.specialty-content h1 {
+	margin-top: 0;
+	text-align: center;
+    color: #670733;
+}
+
+.specialty-content h2 {
+	margin-top: 32px;
+	color: #670733;
+}
+
+.specialty-content li {
+	margin-bottom: 8px;
+}
+
+.curriculum-table-wrapper {
+	overflow-x: auto;
+}
+
+.specialty-content table {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #ffffff;
+}
+
+.specialty-content th,
+.specialty-content td {
+	padding: 12px;
+	border: 1px solid #c8c8c8;
+	text-align: left;
+}
+
+.specialty-content th {
+	background-color: #a17d2e;
+	color: #ffffff;
+}
+
+.specialty-content a {
+	color: #670733;
+	font-weight: bold;
 }
 
 footer {

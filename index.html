@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Especialidad y Maestría</title>
+	<title>Planes de estudio</title>
+	<link rel="icon" type="image/png" href="ico.png">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,21 +13,124 @@
 	</header>
 
 	<nav>
-		<a href="#">inicio</a>
-        <a href="#">Especialidad</a>
+		<a class="home-link" href="#inicio">inicio</a>
+		<a class="specialty-link" href="#especialidad">Especialidad</a>
 		<a href="#">Maestría</a>
 	</nav>
 
 	<main class="content-container">
-		<p class="welcome-message">Bienvenido al micrositio para visualizar los planes de estudio de los posgrados de Especialidad y Maestría.</p>
+		<section id="inicio" class="content-view">
+			<p class="welcome-message">Bienvenido al micrositio para visualizar los planes de estudio de los posgrados de Especialidad y Maestría.</p>
 
-		<div class="study-options">
-			<a class="study-button" href="#">Especialidad</a>
-			<a class="study-button" href="#">Maestría</a>
-		</div>
+			<div class="study-options">
+				<a class="study-button specialty-link" href="#especialidad">Especialidad</a>
+				<a class="study-button" href="#">Maestría</a>
+			</div>
+		</section>
+
+		<section id="especialidad" class="content-view specialty-content" hidden>
+			<h1>Especialidad en el uso de tecnologías para el aprendizaje</h1>
+
+			<h2>Objetivo</h2>
+			<p>Profesionalizar a docentes de educación media superior y superior en el uso de TICCAD para el aprendizaje considerando las necesidades del contexto educativo en el que se desempeñan.</p>
+
+			<h2>Perfil de ingreso</h2>
+			<ol>
+				<li>Con nacionalidad mexicana.</li>
+				<li>Con residencia en la Ciudad de México y área metropolitana.</li>
+				<li>Que estén en activo en instituciones de Educación Media Superior y Superior del Sistema Educativo Nacional.</li>
+				<li>Que cuenten con mínimo tres años de experiencia frente a grupo.</li>
+				<li>Interés por incorporar a la práctica docente las TICCAD.</li>
+				<li>Habilidades para el estudio independiente.</li>
+				<li>Gusto por la escritura y la lectura.</li>
+				<li>Disposición para analizar y reflexionar de manera crítica su práctica docente.</li>
+				<li>Interés por la investigación.</li>
+				<li>Disposición al trabajo colaborativo.</li>
+			</ol>
+
+			<h2>Perfil de egreso</h2>
+			<ol>
+				<li>Elaborar un diagnóstico que le permita detectar una problemática de aprendizaje en el contexto educativo en el que desempeña su práctica docente, misma que es susceptible de resolverse con apoyo de las TICCAD.</li>
+				<li>Diseñar un proyecto de intervención para favorecer el aprendizaje de sus estudiantes a partir de metodologías activas que integren el uso de las TICCAD.</li>
+				<li>Implementar un proyecto de intervención para apoyar el aprendizaje mediante el uso de las TICCAD.</li>
+				<li>Evaluar la implementación de un proyecto de intervención para valorar la pertinencia de la metodología de aprendizaje y las TICCAD utilizadas para atender la problemática detectada en el diagnóstico de necesidades.</li>
+			</ol>
+
+			<h2>Malla curricular</h2>
+			<div class="curriculum-table-wrapper">
+				<table>
+					<thead>
+						<tr>
+							<th>Semestre</th>
+							<th>Bloque</th>
+							<th>Asignatura/Materia</th>
+							<th>Tipo</th>
+							<th>Créditos</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr><td>1</td><td>N/A</td><td>Investigación e intervención educativa.</td><td>Seriada</td><td>12</td></tr>
+						<tr><td>1</td><td>N/A</td><td>Metodologías para el aprendizaje activo.</td><td>Obligatoria</td><td>10</td></tr>
+						<tr><td>1</td><td>N/A</td><td>Recursos y herramientas digitales.</td><td>Obligatoria</td><td>12</td></tr>
+						<tr><td>2</td><td>N/A</td><td>Taller de intervención educativa</td><td>Seriada</td><td>16</td></tr>
+						<tr><td>2</td><td>N/A</td><td>Integridad académica</td><td>Obligatoria</td><td>7</td></tr>
+					</tbody>
+				</table>
+			</div>
+
+			<p>Número de materias: 2 seriadas; 3 obligatorias; N/A optativas; N/A electivas.</p>
+			<p>Materias optativas (obligatorias): N/A</p>
+
+			<h2>Requisitos para la obtención de diploma</h2>
+			<ol>
+				<li>Haber cubierto el 100% de los créditos del programa de estudios.</li>
+				<li>Tener completa la documentación de su expediente escolar, consistente en:
+					<ol>
+						<li>Acta de nacimiento original.</li>
+						<li>Título de licenciatura.</li>
+						<li>Cédula profesional de la licenciatura.</li>
+						<li>Certificado original de estudios de la licenciatura.</li>
+						<li>CURP certificada, verificada con el Registro Civil en términos de lo dispuesto en el artículo 11 del Reglamento Universitario de la Universidad Abierta y a Distancia de México.</li>
+					</ol>
+				</li>
+				<li>Aprobación de la figura académica que asesoró la elaboración del Informe.</li>
+				<li>Versión final del Informe en formato digital.</li>
+				<li>Haber presentado su Informe ante las autoridades de la UnADM.</li>
+			</ol>
+
+			<p>Para obtener más información sobre los requisitos para la obtención del diploma de la especialidad, puedes consultar el documento en el siguiente link:</p>
+			<p><a href="https://drive.google.com/file/d/1fAR_gEQxCrg0ax6nATVQJjOrt-UDLFzr/view?usp=sharing" target="_blank" rel="noopener noreferrer">Requisitos para la obtención de diploma de la Especialidad en el uso de tecnologías para el aprendizaje.</a></p>
+		</section>
 	</main>
 
 	<footer>UnADM Posgrado, 2026</footer>
+
+	<script>
+		const homeView = document.querySelector("#inicio");
+		const specialtyView = document.querySelector("#especialidad");
+		const specialtyLinks = document.querySelectorAll(".specialty-link");
+		const homeLink = document.querySelector(".home-link");
+
+		function showView(view) {
+			const showSpecialty = view === "especialidad";
+			homeView.hidden = showSpecialty;
+			specialtyView.hidden = !showSpecialty;
+		}
+
+		specialtyLinks.forEach((link) => {
+			link.addEventListener("click", (event) => {
+				event.preventDefault();
+				history.replaceState(null, "", "#especialidad");
+				showView("especialidad");
+			});
+		});
+
+		homeLink.addEventListener("click", (event) => {
+			event.preventDefault();
+			history.replaceState(null, "", "#inicio");
+			showView("inicio");
+		});
+	</script>
 </body>
 </html>
 
